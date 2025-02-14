@@ -3,10 +3,13 @@ import Home from "./pages/Home";
 import Products from "./pages/Products";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
+    
     <Router>
+      <Navbar/>
       <div className="flex flex-col min-h-screen">
         <Header />
         <main className="flex-grow p-4">
